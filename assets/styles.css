@@ -1,0 +1,60 @@
+/* Style Sheet */
+
+
+*{
+    box-sizing: border-box;
+    padding: 0 ;
+    margin: 0;
+}   
+:root{
+    --viridian: #6B9080;
+    --light: #eaf4f4;
+    --light-accent: #f6fff8;
+    --mint: #CCE3DE;
+    --light-green: #A4C3B2;
+}
+
+
+
+
+main {
+    background-color: var(--viridian);
+    height: 2000px;
+}
+
+
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--light);
+    color: var(--light-green);
+}
+
+article {
+    position: relative;
+    height: 10%;
+    width: 80%;
+    background-color: var(--mint);
+    color: var(--light-accent);
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 20%;
+}
+
+.A {
+    border: 6px solid var(--light-accent);
+}
+.B {
+    border: 6px solid var(--light-accent);
+}
+.C {
+    border: 6px solid var(--light-accent);
+}
+.D {
+    border: 6px solid var(--light-accent);
+}
