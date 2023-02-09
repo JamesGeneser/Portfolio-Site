@@ -9,30 +9,62 @@
 </head>
 <body>
     <header>
-        <h1>James Geneser</h1>
+        <h1><p>James Geneser</h1>
+        <nav>
+            <a href="#aboutMe">About Me</a> 
+            <a href="#work">My Work</a>
+            <a href="#contact">Contact Me</a>
+        </nav>
     </header>
     <main>
-        <article><h2>a little about me</h2></article>
-        <section>
-            <div class="A"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, aliquam!</p></div>
-            <div class="B"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, aliquam!</p></div>
-            <div class="C"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, aliquam!</p></div>
-            <div class="D"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, aliquam!</p></div>
+        <article id="aboutMe">
+            <h2>About Me</h2>
+            
+            <img src="assets/photos/Profile-picture copy.JPG" alt="picture of James wearing a blue shirt and tie"
+                id="profile">
+        </article>
+            
+        <section id="work">
+            <h3>My Work</h3>
+            <figure class="figure">
+                <a target="_blank" href="https://www.youtube.com/watch?v=d3SrKzkeSqE">
+                <img src="assets/photos/ComeInside_copy_MP4_AdobeExpress.gif" alt="gif of illustrated rain on window, titled: Come Inside, by Where's Beth" class="big"></a><figcaption>"Come Inside" <i> animated music video</i></figcaption> 
+                
+                
+            </figure>
+            <figure class="figure">
+                <a target="_blank" href="https://jamesgeneser.github.io/BirdCalls/"> <img src="assets/photos/BirdCallScreen.png" alt="Learn Your Bird Calls, screen shot of website, icon of bluejay" class="bird"
+                ></a>
+
+                <figcaption>Bird Call Webpage</figcaption>
+            </figure>
+
+            <figure class="figure">
+                <figcaption>Marketing Webpage Refactor</figcaption>
+                <a target="_blank" href="https://jamesgeneser.github.io/MarketingChallengeRefactor/"><img src="assets/photos/MarketingRefactorScreen.png" alt=""
+                class="market"></a> 
+
+            </figure>
+
+            
+        </section>
+
+        <section id="contact">
+            <h4>Contact Me</h4>
+            <form action="#">
+            <p>Your Email:
+                <input type="text" name="email" size="40" />
+            </p>
+            </form>
+            <form action="#">
+            <p>
+               <textarea name="comments" cols="20" rows="4">Write your message here</textarea> 
+            </p>
+            </form>
         </section>
     </main>
 
-    <footer></footer>
-    
-
-
-
-
-
-
-
-
-
-
+  
 
 
 </body>
